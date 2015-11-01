@@ -1,0 +1,149 @@
+// Feature Grid
+
+.a-u-fg {
+	position: relative;
+	// feature grid vars
+	$v-fg-height: 400px;
+	$v-fg-spacing: 10px;
+	$v-fg-item-width: 336px;
+	$v-fg-slide-width: (3 * $v-fg-item-width) + (2 * $v-fg-spacing) + 42;
+
+	height: $v-fg-height;
+
+	& > nav {
+		.btn {
+			// vars
+			$v-fg-btn-height: 100px;
+			$v-fg-btn-width: 46px;
+			$v-fg-btn-bg: #ccc;
+
+			position: absolute;
+		  top: 50%;
+		  margin-top: -($v-fg-btn-height/2);
+			width: $v-fg-btn-width;
+			height: $v-fg-btn-height;
+			border-radius: 6px;
+			background-color: $v-fg-btn-bg;
+			opacity: 0.6;
+
+			&:hover {
+				opacity: 0.9;
+				transition: all 0.3s;
+			}
+
+			&.next {
+				right: $v-fg-btn-width/4;
+			}
+			&.prev {
+				left: $v-fg-btn-width/4;
+			}
+			&.dissabled {
+				display: none;
+			}
+		}
+	}
+	.a-u-fg-inner {
+		position: absolute;
+		transition: left 0.4s ease-in-out;
+		left: 0;
+		width: 9999px; // TODO: Fix this
+		height: $v-fg-height;
+
+		li {
+			list-style: none;
+		}
+
+		.col {
+			position: relative;
+			float: left;
+			height: $v-fg-height;
+			padding-right: $v-fg-spacing;
+		}
+		.grid-item {
+			position: relative;
+			clear: both;
+			float: left;
+			width: $v-fg-item-width;
+			height: ($v-fg-height - $v-fg-spacing) / 2;
+			background-position: center center;
+			background-size: cover;
+			cursor: pointer;
+
+			&:nth-child(odd) {
+				background-color: #f2f2f2;
+				margin-bottom: $v-fg-spacing;
+				@extend .v-grad-green-yellow;
+			}
+
+			&:nth-child(even) {
+				background-color: #f9f9f9;
+				margin-bottom: 0;
+				@extend .v-grad-blue-purple;
+			}
+
+			&.big {
+				height: $v-fg-height;
+				margin-bottom: 0;
+			}
+
+			.overlay {
+				opacity: 0;
+				transition: opacity 0.2s ease-in-out;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				@extend .v-grad-black-tint;
+
+				padding: 24px 22px;
+				text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+				color: white;
+
+				h4 {
+					font-weight: 600;
+				}
+
+				.tags {
+					margin-top: 4px;
+					font-size: 16px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+
+	.grid-section {
+		position: absolute;
+		top: 0;
+		opacity: 0.4; // When not focused less opaque
+		cursor: pointer;
+		transition: left 0.8s;
+		&:hover {
+			opacity: 0.6;
+			transition: opacity 0.3s;
+		}
+
+		&.focused {
+			cursor: initial;
+			opacity: 1;
+
+			.overlay:hover {
+				opacity: 1;
+				transition: opacity 0.2s ease-in-out;
+			}
+		}
+	}
+
+	// Slide positions
+
+	.slide-1 {
+		left: 0px;
+	}
+
+	.slide-2 {
+		left: $v-fg-slide-width;
+	}
+
+	.slide-3 {
+		left: ($v-fg-slide-width * 2);
+	}
+}
