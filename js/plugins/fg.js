@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	// TODO: make sizes update on $(window).resize();
 	
 	// TODO: make 42px spacing dynamic
 	$(".a-u-fg").on( 'click', '.fg-left', function(){
