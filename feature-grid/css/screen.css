@@ -138,19 +138,19 @@ a {
       position: relative;
       float: left;
       height: 420px;
-      padding-right: 20px; }
+      padding-right: 12px; }
     .a-u-fg .a-u-fg-inner .grid-item {
       position: relative;
       clear: both;
       float: left;
-      width: 340px;
-      height: 200px;
+      width: 336px;
+      height: 204px;
       background-position: center center;
       background-size: cover;
       cursor: pointer; }
       .a-u-fg .a-u-fg-inner .grid-item:nth-child(odd) {
         background-color: #f2f2f2;
-        margin-bottom: 20px; }
+        margin-bottom: 12px; }
       .a-u-fg .a-u-fg-inner .grid-item:nth-child(even) {
         background-color: #f9f9f9;
         margin-bottom: 0; }
@@ -190,9 +190,9 @@ a {
   .a-u-fg .slide-1 {
     left: 0px; }
   .a-u-fg .slide-2 {
-    left: 1102px; }
+    left: 1074px; }
   .a-u-fg .slide-3 {
-    left: 2204px; }
+    left: 2148px; }
 
 body {
   width: 100%;
