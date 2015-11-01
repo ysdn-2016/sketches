@@ -1,0 +1,44 @@
+// Typography
+
+html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: $v-font-color;
+}
+
+// Font smoothing hack
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1 {}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p {}
+
+li {}
+
+// category feature
+
+.a-category {
+	h3 {
+		font-weight: 600;
+	}
+}
