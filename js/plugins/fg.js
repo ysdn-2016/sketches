@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	
+	// TODO: make 42px spacing dynamic
 	$(".a-u-fg").on( 'click', '.fg-left', function(){
 		var w = $(this).width();
 		var container = $(this).parents(".a-u-fg-inner");
@@ -8,8 +9,7 @@ $(document).ready(function(){
 		$(this).prev().addClass("fg-left");
 		$(this).addClass("focused")
 					 .removeClass("fg-left");
-		container.offset({ left: pos.left + w });
-		console.log(w);
+		container.css({ left: pos.left + ( w + 42 ) });
 		return false;
 	});
 
@@ -21,7 +21,7 @@ $(document).ready(function(){
 		$(this).prev().removeClass("focused").addClass("fg-left");
 		$(this).addClass("focused")
 					 .removeClass("fg-right");
-		container.offset({ left: pos.left - w });
+		container.css({ left: pos.left - ( w + 42 ) });
 		return false;
 	});
 });
