@@ -227,7 +227,7 @@
 		"inputAbbreviatedPath": "\/scss\/screen.scss",
 		"outputAbbreviatedPath": "\/css\/screen.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,

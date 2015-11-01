@@ -3,9 +3,9 @@
 .a-u-fg {
 	position: relative;
 	// feature grid vars
-	$v-fg-height: 400px;
-	$v-fg-spacing: 10px;
-	$v-fg-item-width: 336px;
+	$v-fg-height: 420px;
+	$v-fg-spacing: 20px;
+	$v-fg-item-width: 340px;
 	$v-fg-slide-width: (3 * $v-fg-item-width) + (2 * $v-fg-spacing) + 42;
 
 	height: $v-fg-height;
