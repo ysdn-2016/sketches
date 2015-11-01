@@ -5,7 +5,7 @@
 	// feature grid vars
 	$v-fg-height: 380px;
 	$v-fg-spacing: 10px;
-	$v-fg-slide-width: 1050px;
+	$v-fg-slide-width: 1024px;
 
 	height: $v-fg-height;
 
@@ -42,6 +42,9 @@
 		}
 	}
 	.a-u-fg-inner {
+		position: absolute;
+		transition: left 0.8s;
+		left: 0;
 		width: 9999px; // TODO: Fix this
 		height: $v-fg-height;
 
@@ -59,7 +62,7 @@
 			position: relative;
 			clear: both;
 			float: left;
-			width: 340px;
+			width: 330px;
 			height: 185px;
 
 			&:nth-child(odd) {
@@ -71,6 +74,7 @@
 			&:nth-child(even) {
 				background-color: #f9f9f9;
 				margin-bottom: 0;
+				@extend .v-grad-blue-purple;
 			}
 
 			&.big {
@@ -85,9 +89,10 @@
 		top: 0;
 		opacity: 0.4; // When not focused less opaque
 		cursor: pointer;
+		transition: left 0.8s;
 		&:hover {
 			opacity: 0.6;
-			transition: all 0.3s;
+			transition: opacity 0.3s;
 		}
 
 		&.focused {
