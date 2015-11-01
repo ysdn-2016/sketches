@@ -1,7 +1,12 @@
+// Type Variables
+
+$v-font-color: #606673;
+
 // Typography
 
 html {
   font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: $v-font-color;
 }
 
 // Font smoothing hack
@@ -12,7 +17,13 @@ html, html a {
 
 h1 {}
 
-h2 {}
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 22px;
+}
 
 a {
 	text-decoration: none;
@@ -22,3 +33,11 @@ a {
 p {}
 
 li {}
+
+// category feature
+
+.a-category {
+	h3 {
+		font-weight: 600;
+	}
+}
