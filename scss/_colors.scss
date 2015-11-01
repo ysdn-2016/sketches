@@ -1,0 +1,18 @@
+// colors
+// For docs on gradients with compass: http://compass-style.org/examples/compass/css3/gradient/
+
+.v-grad-green-yellow {
+  background-image: -svg(linear-gradient(155deg, #fffeb9, #b6ddc1));
+}
+
+.v-grad-blue-purple {
+  background-image: -svg(linear-gradient(155deg, #cffbf2, #96bdf5));
+}
+
+.v-grad-pink-purple {
+  background-image: -svg(linear-gradient(155deg, #dfb6fd, #b3c3fa));
+}
+
+// Type Variables
+
+$v-font-color: #606673;
