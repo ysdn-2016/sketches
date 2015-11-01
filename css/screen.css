@@ -107,7 +107,7 @@ a {
 
 .a-u-fg {
   position: relative;
-  height: 380px; }
+  height: 400px; }
   .a-u-fg > nav .btn {
     position: absolute;
     top: 50%;
@@ -131,22 +131,23 @@ a {
     transition: left 0.4s ease-in-out;
     left: 0;
     width: 9999px;
-    height: 380px; }
+    height: 400px; }
     .a-u-fg .a-u-fg-inner li {
       list-style: none; }
     .a-u-fg .a-u-fg-inner .col {
       position: relative;
       float: left;
-      height: 380px;
+      height: 400px;
       padding-right: 10px; }
     .a-u-fg .a-u-fg-inner .grid-item {
       position: relative;
       clear: both;
       float: left;
-      width: 330px;
-      height: 185px;
+      width: 336px;
+      height: 195px;
       background-position: center center;
-      background-size: cover; }
+      background-size: cover;
+      cursor: pointer; }
       .a-u-fg .a-u-fg-inner .grid-item:nth-child(odd) {
         background-color: #f2f2f2;
         margin-bottom: 10px; }
@@ -154,7 +155,7 @@ a {
         background-color: #f9f9f9;
         margin-bottom: 0; }
       .a-u-fg .a-u-fg-inner .grid-item.big {
-        height: 380px;
+        height: 400px;
         margin-bottom: 0; }
       .a-u-fg .a-u-fg-inner .grid-item .overlay {
         opacity: 0;
@@ -189,9 +190,9 @@ a {
   .a-u-fg .slide-1 {
     left: 0px; }
   .a-u-fg .slide-2 {
-    left: 1052px; }
+    left: 1070px; }
   .a-u-fg .slide-3 {
-    left: 2104px; }
+    left: 2140px; }
 
 body {
   width: 100%;
