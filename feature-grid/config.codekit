@@ -11,104 +11,104 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/feature-grid\/css\/ie.css": {
+	"\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/css\/ie.css",
+		"inputAbbreviatedPath": "\/css\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/feature-grid\/css\/print.css": {
+	"\/css\/print.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/css\/print.css",
+		"inputAbbreviatedPath": "\/css\/print.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/feature-grid\/css\/screen.css": {
+	"\/css\/screen.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/css\/screen.css",
+		"inputAbbreviatedPath": "\/css\/screen.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/feature-grid\/fg.html": {
+	"\/fg.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/fg.html",
+		"inputAbbreviatedPath": "\/fg.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/feature-grid\/img\/sample1.png": {
+	"\/img\/sample1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.76181e+06,
-		"inputAbbreviatedPath": "\/feature-grid\/img\/sample1.png",
-		"outputAbbreviatedPath": "\/feature-grid\/img\/sample1.png",
+		"inputAbbreviatedPath": "\/img\/sample1.png",
+		"outputAbbreviatedPath": "\/img\/sample1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/feature-grid\/index.html": {
+	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/index.html",
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/feature-grid\/js\/plugins\/fg.js": {
+	"\/js\/plugins\/fg.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/js\/plugins\/fg.js",
-		"outputAbbreviatedPath": "\/feature-grid\/js\/plugins\/min\/fg-min.js",
+		"inputAbbreviatedPath": "\/js\/plugins\/fg.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/fg-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/feature-grid\/js\/plugins\/min\/fg-min.js": {
+	"\/js\/plugins\/min\/fg-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/js\/plugins\/min\/fg-min.js",
-		"outputAbbreviatedPath": "\/feature-grid\/js\/plugins\/min\/min\/fg-min-min.js",
+		"inputAbbreviatedPath": "\/js\/plugins\/min\/fg-min.js",
+		"outputAbbreviatedPath": "\/js\/plugins\/min\/min\/fg-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/feature-grid\/js\/scripts.js": {
+	"\/js\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/feature-grid\/js\/min\/scripts-min.js",
+		"inputAbbreviatedPath": "\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/feature-grid\/scss\/_colors.scss": {
+	"\/scss\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/_colors.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/scss\/_colors.scss",
+		"outputAbbreviatedPath": "\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -116,15 +116,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/feature-grid\/scss\/_reset.scss": {
+	"\/scss\/_reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/_reset.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/css\/_reset.css",
+		"inputAbbreviatedPath": "\/scss\/_reset.scss",
+		"outputAbbreviatedPath": "\/css\/_reset.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -132,15 +132,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/feature-grid\/scss\/_style.scss": {
+	"\/scss\/_style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/_style.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/css\/_style.css",
+		"inputAbbreviatedPath": "\/scss\/_style.scss",
+		"outputAbbreviatedPath": "\/css\/_style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -148,15 +148,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/feature-grid\/scss\/_typography.scss": {
+	"\/scss\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/_typography.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/css\/_typography.css",
+		"inputAbbreviatedPath": "\/scss\/_typography.scss",
+		"outputAbbreviatedPath": "\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -164,15 +164,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/feature-grid\/scss\/ie.scss": {
+	"\/scss\/ie.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/ie.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/css\/ie.css",
+		"inputAbbreviatedPath": "\/scss\/ie.scss",
+		"outputAbbreviatedPath": "\/css\/ie.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -180,15 +180,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/feature-grid\/scss\/print.scss": {
+	"\/scss\/print.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/print.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/css\/print.css",
+		"inputAbbreviatedPath": "\/scss\/print.scss",
+		"outputAbbreviatedPath": "\/css\/print.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -196,15 +196,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/feature-grid\/scss\/screen.scss": {
+	"\/scss\/screen.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/screen.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/css\/screen.css",
+		"inputAbbreviatedPath": "\/scss\/screen.scss",
+		"outputAbbreviatedPath": "\/css\/screen.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -212,42 +212,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/feature-grid\/scss\/unit\/_feature-grid.scss": {
+	"\/scss\/unit\/_feature-grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-grid\/scss\/unit\/_feature-grid.scss",
-		"outputAbbreviatedPath": "\/feature-grid\/scss\/css\/_feature-grid.css",
+		"inputAbbreviatedPath": "\/scss\/unit\/_feature-grid.scss",
+		"outputAbbreviatedPath": "\/css\/_feature-grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
 		}
 	},
 "hooks": [
