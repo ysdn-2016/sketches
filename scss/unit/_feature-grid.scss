@@ -1,0 +1,112 @@
+// Feature Grid
+
+.a-u-fg {
+	position: relative;
+	// feature grid vars
+	$v-fg-height: 380px;
+	$v-fg-spacing: 10px;
+	$v-fg-slide-width: 1050px;
+
+	height: $v-fg-height;
+
+	& > nav {
+		.btn {
+			// vars
+			$v-fg-btn-height: 100px;
+			$v-fg-btn-width: 46px;
+			$v-fg-btn-bg: #ccc;
+
+			position: absolute;
+		  top: 50%;
+		  margin-top: -($v-fg-btn-height/2);
+			width: $v-fg-btn-width;
+			height: $v-fg-btn-height;
+			border-radius: 6px;
+			background-color: $v-fg-btn-bg;
+			opacity: 0.6;
+
+			&:hover {
+				opacity: 0.9;
+				transition: all 0.3s;
+			}
+
+			&.next {
+				right: $v-fg-btn-width/4;
+			}
+			&.prev {
+				left: $v-fg-btn-width/4;
+			}
+			&.dissabled {
+				display: none;
+			}
+		}
+	}
+	.a-u-fg-inner {
+		width: 9999px; // TODO: Fix this
+		height: $v-fg-height;
+
+		li {
+			list-style: none;
+		}
+
+		.col {
+			position: relative;
+			float: left;
+			height: $v-fg-height;
+			padding-right: 10px;
+		}
+		.grid-item {
+			position: relative;
+			clear: both;
+			float: left;
+			width: 340px;
+			height: 185px;
+
+			&:nth-child(odd) {
+				background-color: #f2f2f2;
+				margin-bottom: 10px;
+				@extend .v-grad-green-yellow;
+			}
+
+			&:nth-child(even) {
+				background-color: #f9f9f9;
+				margin-bottom: 0;
+			}
+
+			&.big {
+				height: $v-fg-height;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.grid-section {
+		position: absolute;
+		top: 0;
+		opacity: 0.4; // When not focused less opaque
+		cursor: pointer;
+		&:hover {
+			opacity: 0.6;
+			transition: all 0.3s;
+		}
+
+		&.focused {
+			cursor: initial;
+			opacity: 1;
+		}
+	}
+
+	// Slide positions
+
+	.slide-1 {
+		left: 0px;
+	}
+
+	.slide-2 {
+		left: $v-fg-slide-width + 22px;
+	}
+
+	.slide-3 {
+		left: ($v-fg-slide-width * 2) + 22px;
+	}
+}
